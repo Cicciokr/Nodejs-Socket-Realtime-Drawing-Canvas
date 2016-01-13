@@ -1,5 +1,8 @@
-# Nodejs-Drawing-Realtime
+# Nodejs Drawing Realtime with Socket.io and Expressjs
 Nodejs app permit to draw on a map realtime with your friend in a private room, the app use expressjs 4.x and socket.io 1.x
+
+You can found and example on: nodejs.francescopantisano.it
+
 
 ### Install it is simple
 - download the package unzip it for example *./drawing*
