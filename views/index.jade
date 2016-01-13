@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='library/bootstrap/dist/css/bootstrap.min.css')
+		script(src="library/jquery/dist/jquery.min.js")
+		
+		block content
+		div.container
+			div.row
+				h1 Draw your strategy map on real time with your team
+				h2 You can save your strategy after you have created it.
+					form(name="create-user", method="post", action="/")
+						div.col-lg-12
+							div.col-lg-6
+								input(type="text", name="room", class="form-control", placeholder="Room name")
+						div.col-lg-12
+							div.col-lg-6
+								div.input-group
+									input(type="text", name="username", class="form-control", placeholder="Your username")
+									span.input-group-btn
+										input(type="submit", class="btn btn-primary", value="Enter")
